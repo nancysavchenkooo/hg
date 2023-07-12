@@ -420,6 +420,19 @@ PROSES NGEHEK FB, MAINKAN MODE PESAWAT SETIAP 200 ID!
         kntd = input("[?] tampilkan aplikasi yang terkait [Y/t]: ")
         if "y" in kntd:self.ya.append("ya")
         else:self.ya.append("ta")
+        
+    def ua_asu(self):
+        
+        for xd in range(10000):
+            rr = random.randint
+            rc = random.choice
+            aZ = str(rc(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']))
+            merek =  ["RMX3516", "RMX3371", "RMX3461", "RMX3286", "RMX3561", "RMX3388", "RMX3311", "RMX3142", "RMX2071", "RMX1805", "RMX1809", "RMX1801", "RMX1807", "RMX1803", "RMX1825", "RMX1821", "RMX1822", "RMX1833", "RMX1851", "RMX1853", "RMX1827", "RMX1911", "RMX1919"]
+            merek2 =  ["Infinix X666B","Infinix X6285","Infinix X665E","Infinix X6827","Infinix HOT 3","Invinix HOT 3 Pro","Infinix HOT 4","Infinix HOT 4 Lite","Infinix HOT 4 Pro","Infinix X559F","Infinix X559","Infinix","X606D","Infinix X608","Infinix X623","Infinix X624","Infinix X 625B","Infinix X650C","Infinix X655C","Infinix X682C","Infinix X659B","Infinix X689"]
+            merek3 =  ["SM-J120H","SM-J120F","SM-J120M","SM-J111M","SM-J111F","SM-J110H","SM-J110G","SM-J110F","SM-J110M","SM-J105H","SM-J105Y","SM-J105B","SM-J106H","SM-J106F","SM-J106B","SM-J106M","SM-J200F","SM-J200M"]
+            pro1 = f"Dalvik/2.1.0 (Linux; U; Android {str(rr(9,12))}; {str(rc(merek))} Build/L33EFJ) [FBAN/EMA;FBAV/{str(rr(100,164))}.0.0.28.97;FBBV/257333756;FBRV/0;FBPN/com.facebook.lite;FBLC/en_GB;FBMF/Samsung;FBBD/Samsung;FBDV/Realme;FBSV/5;FBCA/armeabi-v7a:armeabi;FBDM/density=2.0,width=720,height=1440;FB_FW/1;]"
+            sygkamu = random.choice([pro1])
+            return (sygkamu)
 
     def ua_api(self):
         vers = random.randrange(6,13)
@@ -427,7 +440,7 @@ PROSES NGEHEK FB, MAINKAN MODE PESAWAT SETIAP 200 ID!
         xnxx = random.choice(["SP1A.210812.016","TP1A.220905.001","SP1A.210812.016","SP1A.210812.016","TP1A.220905.001","TP1A.220905.001","SP1A.210812.016","RKQ1.210503.001","TP1A.220905.001","RKQ1.211119.001","TP1A.220905.001","TP1A.220905.001","RP1A.201005.001","RP1A.201005.001","RKQ1.211119.001",])
         return (f"Dalvik/2.1.0 (Linux; U; Android {vers}; {verq} Build/{xnxx}) [FBAN/EMA;FBBV/470353487;FBAV/353.0.0.5.112;FBDV/{verq};FBLC/id_ID;FBNG/WIFI;FBMNT/METERED;FBDM/"+"{density=3.0}]")
 
-    def ua_asu(self):
+    def ua_asu22(self):
         vers = random.randrange(6,13)
         verq = random.choice(["RMX3472", "RMX3611", "RMX3396", "RMX3572", "RMX3706", "RMX3396", "RMX3610", "RMX3371", "RMX3572", "RMX3461", "RMX3311", "RMX3563", "RMX3371", "RMX3269", "RMX3370", "RMX3574", "RMX3661", "RMX3611"])
         xnxx = random.choice(["SP1A.210812.016","TP1A.220905.001","SP1A.210812.016","SP1A.210812.016","TP1A.220905.001","TP1A.220905.001","SP1A.210812.016","RKQ1.210503.001","TP1A.220905.001","RKQ1.211119.001","TP1A.220905.001","TP1A.220905.001","RP1A.201005.001","RP1A.201005.001","RKQ1.211119.001",])
